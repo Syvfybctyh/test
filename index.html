@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <meta name="description" content="أوكسجين لمواد التنظيف - منتجات نظافة عالية الجودة">
   <title>أوكسجين لمواد التنظيف</title>
-  <!-- إضافة Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
   <link rel="stylesheet" href="css/style.css" />
 </head>
@@ -14,7 +13,10 @@
   <header>
     <h1>أوكسجين لمواد التنظيف</h1>
     <p>xxxxxxxxxxxx</p>
-    <a href="#products">استكشف منتجاتنا</a>
+    <a href="#products">منتجاتنا</a>
+    <a href="#features">مميزاتنا</a>
+    <a href="#contact">تواصل معنا</a>
+    <a href="#send">ارسل لنا رسالة</a>
   </header>
 
   <main class="container">
@@ -25,28 +27,28 @@
       </div>
     </section>
 
-    <section class="section features-section">
+    <section class="section features-section" id="features">
       <h2>مميزاتنا</h2>
       <div class="features">
         <div class="feature">
-          <!-- <div class="feature-icon"><i class="fas fa-star"></i></div> -->
+          <div class="feature-icon"><i class="fas fa-star"></i></div>
           <h3>xxxxxxxx</h3>
           <p>xxxxxxxxx</p>
         </div>
         <div class="feature">
-          <!-- <div class="feature-icon"><i class="fas fa-leaf"></i></div> -->
+          <div class="feature-icon"><i class="fas fa-leaf"></i></div>
           <h3>xxxxxxxxx</h3>
           <p>xxxxxxxxx</p>
         </div>
         <div class="feature">
-          <!-- <div class="feature-icon"><i class="fas fa-shield-alt"></i></div> -->
+          <div class="feature-icon"><i class="fas fa-shield-alt"></i></div>
           <h3>xxxxxxxx</h3>
           <p>xxxxxxxxx</p>
         </div>
       </div>
     </section>
 
-    <section class="section contact-section">
+    <section class="section contact-section" id="contact">
       <h2>تواصل معنا</h2>
       <p class="contact-intro">نحن هنا للإجابة على جميع استفساراتك</p>
       
@@ -81,24 +83,19 @@
         </div>
       </div>
       
-      <div class="direct-contact">
+      <div class="direct-contact" id="send">
         <h3>أرسل رسالة مباشرة عبر واتساب</h3>
         <p>املأ النموذج </p>
         
-        <form id="whatsappContactForm" class="message-form">
+        <form id="contactForm" class="message-form">
           <div class="form-group">
-            <input type="text" id="senderName" name="name"
+            <input type="text" id="name" name="name"
              required placeholder="اسمك الكامل">
           </div>
           
           <div class="form-group">
-            <input type="text" id="senderPhone" name="phone"
+            <input type="text" id="phone" name="phone"
              required placeholder="رقم هاتفك">
-          </div>
-          
-          <div class="form-group">
-            <input type="email" id="senderEmail" name="email"
-             placeholder="بريدك الإلكتروني (اختياري)">
           </div>
           
           <div class="form-group">
