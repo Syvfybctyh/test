@@ -3,26 +3,26 @@ const products = [
   {
     title: "xxxxx",
     desc: "xxxx",
-    image: "xxxxx"
+    image: "images/dac.jpg"
   },
   {
     title: "xxxxxxx",
     desc: "xxxxxxx",
-    image: "xxxxx"
+    image: "images/dac.jpg"
   },
   {
     title: "xxxxxx",
     desc: "xxxxxxx",
-    image: "xxxxxx"
+    image: "images/dac.jpg"
   },
   {
     title: "xxxxxx",
     desc: "xxxxxxxx",
-    image: "xxxx"
+    image: "images/dac.jpg"
   }
 ];
 
-// بطاقة منتج
+// بطاقة المنتج
 function createProductCard(product) {
   const card = document.createElement('div');
   card.className = 'course-card';
