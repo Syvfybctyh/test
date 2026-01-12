@@ -33,9 +33,9 @@ function createProductCard(product) {
     <div class="course-content">
       <h3>${product.title}</h3>
       <p>${product.desc}</p>
-      <a href="https://wa.me/218928529149?text=${encodeURIComponent(` معلومات عن ${product.title}`)}" 
+      <a href="https://wa.me/218929715758?text=${encodeURIComponent(` معلومات عن ${product.title}`)}" 
          class="product-btn" target="_blank">
-        <span>اطلب</span>
+        <span>عرض تفاصيل</span>
       </a>
     </div>
   `;
@@ -58,7 +58,7 @@ const contactForm = document.getElementById("contactForm");
       رقم الهاتف: ${phone}
       الرسالة: ${message}
       `;
-      const whatsappUrl = `https://wa.me/218928529149?text=${whatsappMessage}`;
+      const whatsappUrl = `https://wa.me/218929715758?text=${whatsappMessage}`;
 
       window.open(whatsappUrl, "_blank");
     });
