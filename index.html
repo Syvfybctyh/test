@@ -26,35 +26,41 @@
   </header>
 
   <main class="container">
-    <section id="products" class="section">
+    <section class="section">
       <h2>اختر النقاء الذي يناسب عالمك</h2>
       <div id="products-container" class="cards-grid">
         <!-- سيتم تعبئته من script.js -->
       </div>
+      <p id="products"></p>
     </section>
 
-    <section class="section features-section" id="features">
+    <section class="section features-section">
       <h2>مميزاتنا</h2>
       <div class="features">
         <div class="feature">
           <div class="feature-icon"><i class="fas fa-star"></i></div>
-          <h3>xxxxxxxx</h3>
-          <p>xxxxxxxxx</p>
+          <h3>الجودة الفائقة</h3>
+          <p>نستخدم فقط أفضل المواد الخام ونتابع كل مرحلة تصنيع لضمان جودة لا مثيل لها</p>
         </div>
-        <div class="feature">
-          <div class="feature-icon"><i class="fas fa-leaf"></i></div>
-          <h3>xxxxxxxxx</h3>
-          <p>xxxxxxxxx</p>
-        </div>
-        <div class="feature">
+        <!-- <div class="feature">
           <div class="feature-icon"><i class="fas fa-shield-alt"></i></div>
-          <h3>xxxxxxxx</h3>
+          <h3>hhhhhhhh</h3>
           <p>xxxxxxxxx</p>
+        </div> -->
+        <div class="feature" class="c-list">
+          <div class="feature-icon"><i class="fas fa-leaf"></i></div>
+          <h3>صديق للبيئة</h3>
+          <p>
+            نحرص على أن تكون منتجاتنا قابلة للتحلل 
+            لأننا نؤمن بنقاء البيئة
+          </p>
+          <!-- <p><i class="fas fa-check-circle"></i>  قابلة للتحلل</p> -->
         </div>
       </div>
+      <p id="features"></p>
     </section>
 
-    <section class="section contact-section" id="contact">
+    <section class="section contact-section" >
       <h2>تواصل معنا</h2>
       <p class="contact-intro">نحن هنا للإجابة على جميع استفساراتك</p>
       
@@ -77,20 +83,20 @@
           <div class="contact-icon"><i class="fas fa-envelope"></i></div>
           <div>
             <h4>البريد الإلكتروني</h4>
-            <p class="email">abdo.alamin@proton.me</p>
-          </div>
+            <p class="email">info@manadeal-dah.com.ly</p>
+          </div> 
         </div>
         <div class="contact-item">
           <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
           <div>
             <h4>العنوان</h4>
-            <p class="address">ليبيا - الزاوية</p>
+            <p class="address">ليبيا - مدينة الزاوية</p>
           </div>
-        </div>
+        </div><p id="contact"></p>
       </div>
       
-      <div class="direct-contact" id="send">
-        <h3>أرسل رسالة مباشرة عبر واتساب</h3>
+      <div class="direct-contact">
+        <h3>أرسل رسالة عبر واتساب</h3>
         <p>املأ النموذج </p>
         
         <form id="contactForm" class="message-form">
@@ -106,11 +112,11 @@
           
           <div class="form-group">
             <textarea id="message" name="message"
-             rows="5" required placeholder="اكتب رسالتك هنا..."></textarea>
+             rows="5" required placeholder="اكتب رسالتك هنا"></textarea>
           </div>
           
           <button type="submit" class="submit-btn">
-            <span>إرسال </span>
+            <span id="send">إرسال </span>
           </button>
         </form>
       </div>

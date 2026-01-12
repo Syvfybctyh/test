@@ -1,25 +1,30 @@
 // كائنات المنتجات
 const products = [
   {
-    title: "xxxxx",
-    desc: "xxxx",
+    title: "سائل تنظيف الأطباق",
+    desc: "سائل مركز لتنظيف الأطباق بفعالية عالية، يزيل الدهون والشحوم بسهولة، صديق للبشرة",
     image: "images/dac.jpg"
   },
   {
-    title: "xxxxxxx",
-    desc: "xxxxxxx",
+    title: "منظف الحمامات والمراحيض",
+    desc: "منظف قوي خصيصاً للحمامات والمراحيض، يزيل التكلسات والصدأ والبقع العنيدة",
     image: "images/dac.jpg"
   },
   {
-    title: "xxxxxx",
-    desc: "xxxxxxx",
+    title: "سائل تنظيف الزجاج والنوافذ",
+    desc: "سائل تنظيف سريع المفعول يترك زجاجك صافياً ولماعاً بدون خطوط",
     image: "images/dac.jpg"
   },
   {
-    title: "xxxxxx",
-    desc: "xxxxxxxx",
+    title: "مسحوق الغسيل",
+    desc: "مسحوق غسيل عالي الجودة ينظف بعمق ويحافظ على ألوان الملابس",
     image: "images/dac.jpg"
-  }
+  },
+    {
+    title: "مطهر ومعقم عام",
+    desc: "مطهر متعدد الأغراض يقضي على 99.9% من الجراثيم والبكتيريا",
+    image: "images/dac.jpg"
+  },
 ];
 
 // بطاقة المنتج
@@ -35,7 +40,7 @@ function createProductCard(product) {
       <p>${product.desc}</p>
       <a href="https://wa.me/218929715758?text=${encodeURIComponent(` معلومات عن ${product.title}`)}" 
          class="product-btn" target="_blank">
-        <span>عرض تفاصيل</span>
+        <span>عرض التفاصيل</span>
       </a>
     </div>
   `;

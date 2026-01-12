@@ -186,6 +186,9 @@ header a:hover {
   background: #f5f7ff;
   border: 1px solid #e3f2fd;
 }
+.c-list i {
+    color: var(--gold);
+}
 
 .features {
   display: grid;
